@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/index-css.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/index-js.js"></script>
+ 
+ 
+</head>
+<body>
+    <nav class="navbar navbar-inverse clearFloat my-navbar" role="navigation">
+        <div class="container-fluid" id="navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color: whitesmoke">Acoustic</a>
+            </div>
+            <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" id="mytab">
+                <li class="" id=""><a href="" style="color: whitesmoke">开始旅程</a></li>
+                <li class="" id=""><a href="" style="color: whitesmoke">关于live</a></li>
+                <li class="" id="AboutUs"><a style="color: whitesmoke">关于我们</a></li>
+            </ul>
+            <!--<form class="navbar-form navbar-left" role="search">-->
+                <!--<div class="form-group">-->
+                    <!--<input type="text" class="form-control" placeholder="搜索">-->
+                <!--</div>-->
+                <!--<button type="submit" class="btn btn-default">搜索</button>-->
+            <!--</form>-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="" style="color: whitesmoke">登录</a></li>
+                <li><a href="" style="color: whitesmoke">注册</a> </li>
+                <!--<li class="dropdown">-->
+                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">点我<span class="caret"></span></a>-->
+                    <!--<ul class="dropdown-menu" role="menu">-->
+                        <!--<li><a href="#">hello1</a> </li>-->
+                        <!--<li><a href="#">hello1</a> </li>-->
+                        <!--<li><a href="#">hello1</a> </li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+            </ul>
+            </div>
+ 
+        </div>
+    </nav>
+    <video src="../video/0001.哔哩哔哩-ONE%20OK%20ROCK%20-%20Taking%20Off%20%5BStudio%20Jam%20Session%5D%5B超清版%5D~1.mp4" type="video/mp4" autoplay="autoplay" loop="loop" class="video-bg">
+ 
+    </video>
+    <div class="container my-content" >
+            <h1 style="background-color: rgba(255,255,255,0);color: whitesmoke;padding-bottom: 25px";>找寻属于你的LIVE</h1>
+            <p>你是否厌倦了电音和CD，讨厌来自机器的音乐</p>
+            <p>让我们带你走进live的，感受不插电，感受音乐的本质！</p>
+            <p style="text-align: center;color: whitesmoke">专注于挖掘你喜欢的unplugged现场</p>
+            <div style="padding: 15px 50px 10px;">
+                <form class="bs-example bs-example-form" role="form">
+                    <div class="input-group input-group-lg col-lg-6" style="left: 25%">
+                        <input type="text" class="form-control" placeholder="搜索你的live！">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn my-btn">GO</button>
+                        </div>
+                    </div>
+            </div>
+            <!--<p style="color: white">我们喜欢不插电，我们专注于挖掘你喜欢的unplugged现场<br/>我们的所有现场都是高清</p>-->
+            <!--<h2 style="background-color: rgba(255,255,255,0);color: white">我们喜欢 Ed shreen的现场，喜欢oneokrock的现场.....</h2>-->
+            <!--<p style="color: white">我们的视频来自于YouTube<br/>来自于youku<br/>来自于音悦台<br/>......</p>-->
+    </div>
+    <div class="container" id="div-AboutUs">
+        <p>我们来自桂平.....</p>
+    </div>
+    <footer class="footer navbar-fixed-bottom">
+        <div class="container">
+            <footer class="footer">
+                <nav class="nav-warpper" style="text-align: center">
+                    <span>|</span> <a href="/gamemessage/">关于我们</a>
+                    <span>|</span><a href="/aboutus/">联系我们</a>
+                    <span>|</span>
+                </nav>
+                <div class="feedback-info">
+                    <p>
+                        <span id="copyYear">2018</span> &copy; Acoustic www.Acoustic.com | 桂ICP备16016397号-3 | 广西Acoustic有限公司 |  地址 : 广西桂平市幸福家园小区10栋2单元 
+                    </p>
+                    <p>
+                        <a target="_blank" href="http://www.12377.cn/" style="color: white">中国互联网举报中心</a> | 网络文化许可证-京网文-（2016）2282-264号 | 违法和不良信息举报：010-83434212
+                    </p>
+ 
+                </div>
+            </footer>
+        </div>
+    </footer>
+</body>
+</html>
